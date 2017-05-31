@@ -1,0 +1,534 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		6DA5E9111ECBFF0400857C2A /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6DA5E9101ECBFF0400857C2A /* AppDelegate.swift */; };
+		6DA5E9131ECBFF0400857C2A /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6DA5E9121ECBFF0400857C2A /* ViewController.swift */; };
+		6DA5E9161ECBFF0400857C2A /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6DA5E9141ECBFF0400857C2A /* Main.storyboard */; };
+		6DA5E9181ECBFF0400857C2A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6DA5E9171ECBFF0400857C2A /* Assets.xcassets */; };
+		6DA5E91B1ECBFF0400857C2A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6DA5E9191ECBFF0400857C2A /* LaunchScreen.storyboard */; };
+		6DA5E9261ECBFF0400857C2A /* XTDynamicCashLabelTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6DA5E9251ECBFF0400857C2A /* XTDynamicCashLabelTests.swift */; };
+		6DA5E9311ECBFF0400857C2A /* XTDynamicCashLabelUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6DA5E9301ECBFF0400857C2A /* XTDynamicCashLabelUITests.swift */; };
+		6DA5E93F1ECBFF4B00857C2A /* XTDynamicLabel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6DA5E93E1ECBFF4B00857C2A /* XTDynamicLabel.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		6DA5E9221ECBFF0400857C2A /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 6DA5E9051ECBFF0300857C2A /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 6DA5E90C1ECBFF0400857C2A;
+			remoteInfo = XTDynamicCashLabel;
+		};
+		6DA5E92D1ECBFF0400857C2A /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 6DA5E9051ECBFF0300857C2A /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 6DA5E90C1ECBFF0400857C2A;
+			remoteInfo = XTDynamicCashLabel;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		6DA5E90D1ECBFF0400857C2A /* XTDynamicCashLabel.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = XTDynamicCashLabel.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		6DA5E9101ECBFF0400857C2A /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		6DA5E9121ECBFF0400857C2A /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		6DA5E9151ECBFF0400857C2A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		6DA5E9171ECBFF0400857C2A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		6DA5E91A1ECBFF0400857C2A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		6DA5E91C1ECBFF0400857C2A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		6DA5E9211ECBFF0400857C2A /* XTDynamicCashLabelTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = XTDynamicCashLabelTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		6DA5E9251ECBFF0400857C2A /* XTDynamicCashLabelTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = XTDynamicCashLabelTests.swift; sourceTree = "<group>"; };
+		6DA5E9271ECBFF0400857C2A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		6DA5E92C1ECBFF0400857C2A /* XTDynamicCashLabelUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = XTDynamicCashLabelUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		6DA5E9301ECBFF0400857C2A /* XTDynamicCashLabelUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = XTDynamicCashLabelUITests.swift; sourceTree = "<group>"; };
+		6DA5E9321ECBFF0400857C2A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		6DA5E93E1ECBFF4B00857C2A /* XTDynamicLabel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = XTDynamicLabel.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		6DA5E90A1ECBFF0400857C2A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6DA5E91E1ECBFF0400857C2A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6DA5E9291ECBFF0400857C2A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		6DA5E9041ECBFF0300857C2A = {
+			isa = PBXGroup;
+			children = (
+				6DA5E90F1ECBFF0400857C2A /* XTDynamicCashLabel */,
+				6DA5E9241ECBFF0400857C2A /* XTDynamicCashLabelTests */,
+				6DA5E92F1ECBFF0400857C2A /* XTDynamicCashLabelUITests */,
+				6DA5E90E1ECBFF0400857C2A /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		6DA5E90E1ECBFF0400857C2A /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				6DA5E90D1ECBFF0400857C2A /* XTDynamicCashLabel.app */,
+				6DA5E9211ECBFF0400857C2A /* XTDynamicCashLabelTests.xctest */,
+				6DA5E92C1ECBFF0400857C2A /* XTDynamicCashLabelUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		6DA5E90F1ECBFF0400857C2A /* XTDynamicCashLabel */ = {
+			isa = PBXGroup;
+			children = (
+				6DA5E9101ECBFF0400857C2A /* AppDelegate.swift */,
+				6DA5E93E1ECBFF4B00857C2A /* XTDynamicLabel.swift */,
+				6DA5E9121ECBFF0400857C2A /* ViewController.swift */,
+				6DA5E9141ECBFF0400857C2A /* Main.storyboard */,
+				6DA5E9171ECBFF0400857C2A /* Assets.xcassets */,
+				6DA5E9191ECBFF0400857C2A /* LaunchScreen.storyboard */,
+				6DA5E91C1ECBFF0400857C2A /* Info.plist */,
+			);
+			path = XTDynamicCashLabel;
+			sourceTree = "<group>";
+		};
+		6DA5E9241ECBFF0400857C2A /* XTDynamicCashLabelTests */ = {
+			isa = PBXGroup;
+			children = (
+				6DA5E9251ECBFF0400857C2A /* XTDynamicCashLabelTests.swift */,
+				6DA5E9271ECBFF0400857C2A /* Info.plist */,
+			);
+			path = XTDynamicCashLabelTests;
+			sourceTree = "<group>";
+		};
+		6DA5E92F1ECBFF0400857C2A /* XTDynamicCashLabelUITests */ = {
+			isa = PBXGroup;
+			children = (
+				6DA5E9301ECBFF0400857C2A /* XTDynamicCashLabelUITests.swift */,
+				6DA5E9321ECBFF0400857C2A /* Info.plist */,
+			);
+			path = XTDynamicCashLabelUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		6DA5E90C1ECBFF0400857C2A /* XTDynamicCashLabel */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 6DA5E9351ECBFF0400857C2A /* Build configuration list for PBXNativeTarget "XTDynamicCashLabel" */;
+			buildPhases = (
+				6DA5E9091ECBFF0400857C2A /* Sources */,
+				6DA5E90A1ECBFF0400857C2A /* Frameworks */,
+				6DA5E90B1ECBFF0400857C2A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = XTDynamicCashLabel;
+			productName = XTDynamicCashLabel;
+			productReference = 6DA5E90D1ECBFF0400857C2A /* XTDynamicCashLabel.app */;
+			productType = "com.apple.product-type.application";
+		};
+		6DA5E9201ECBFF0400857C2A /* XTDynamicCashLabelTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 6DA5E9381ECBFF0400857C2A /* Build configuration list for PBXNativeTarget "XTDynamicCashLabelTests" */;
+			buildPhases = (
+				6DA5E91D1ECBFF0400857C2A /* Sources */,
+				6DA5E91E1ECBFF0400857C2A /* Frameworks */,
+				6DA5E91F1ECBFF0400857C2A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				6DA5E9231ECBFF0400857C2A /* PBXTargetDependency */,
+			);
+			name = XTDynamicCashLabelTests;
+			productName = XTDynamicCashLabelTests;
+			productReference = 6DA5E9211ECBFF0400857C2A /* XTDynamicCashLabelTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		6DA5E92B1ECBFF0400857C2A /* XTDynamicCashLabelUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 6DA5E93B1ECBFF0400857C2A /* Build configuration list for PBXNativeTarget "XTDynamicCashLabelUITests" */;
+			buildPhases = (
+				6DA5E9281ECBFF0400857C2A /* Sources */,
+				6DA5E9291ECBFF0400857C2A /* Frameworks */,
+				6DA5E92A1ECBFF0400857C2A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				6DA5E92E1ECBFF0400857C2A /* PBXTargetDependency */,
+			);
+			name = XTDynamicCashLabelUITests;
+			productName = XTDynamicCashLabelUITests;
+			productReference = 6DA5E92C1ECBFF0400857C2A /* XTDynamicCashLabelUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		6DA5E9051ECBFF0300857C2A /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0830;
+				LastUpgradeCheck = 0830;
+				ORGANIZATIONNAME = "叶慧伟";
+				TargetAttributes = {
+					6DA5E90C1ECBFF0400857C2A = {
+						CreatedOnToolsVersion = 8.3.2;
+						ProvisioningStyle = Automatic;
+					};
+					6DA5E9201ECBFF0400857C2A = {
+						CreatedOnToolsVersion = 8.3.2;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 6DA5E90C1ECBFF0400857C2A;
+					};
+					6DA5E92B1ECBFF0400857C2A = {
+						CreatedOnToolsVersion = 8.3.2;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 6DA5E90C1ECBFF0400857C2A;
+					};
+				};
+			};
+			buildConfigurationList = 6DA5E9081ECBFF0400857C2A /* Build configuration list for PBXProject "XTDynamicCashLabel" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 6DA5E9041ECBFF0300857C2A;
+			productRefGroup = 6DA5E90E1ECBFF0400857C2A /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				6DA5E90C1ECBFF0400857C2A /* XTDynamicCashLabel */,
+				6DA5E9201ECBFF0400857C2A /* XTDynamicCashLabelTests */,
+				6DA5E92B1ECBFF0400857C2A /* XTDynamicCashLabelUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		6DA5E90B1ECBFF0400857C2A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6DA5E91B1ECBFF0400857C2A /* LaunchScreen.storyboard in Resources */,
+				6DA5E9181ECBFF0400857C2A /* Assets.xcassets in Resources */,
+				6DA5E9161ECBFF0400857C2A /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6DA5E91F1ECBFF0400857C2A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6DA5E92A1ECBFF0400857C2A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		6DA5E9091ECBFF0400857C2A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6DA5E9131ECBFF0400857C2A /* ViewController.swift in Sources */,
+				6DA5E93F1ECBFF4B00857C2A /* XTDynamicLabel.swift in Sources */,
+				6DA5E9111ECBFF0400857C2A /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6DA5E91D1ECBFF0400857C2A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6DA5E9261ECBFF0400857C2A /* XTDynamicCashLabelTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6DA5E9281ECBFF0400857C2A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6DA5E9311ECBFF0400857C2A /* XTDynamicCashLabelUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		6DA5E9231ECBFF0400857C2A /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 6DA5E90C1ECBFF0400857C2A /* XTDynamicCashLabel */;
+			targetProxy = 6DA5E9221ECBFF0400857C2A /* PBXContainerItemProxy */;
+		};
+		6DA5E92E1ECBFF0400857C2A /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 6DA5E90C1ECBFF0400857C2A /* XTDynamicCashLabel */;
+			targetProxy = 6DA5E92D1ECBFF0400857C2A /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		6DA5E9141ECBFF0400857C2A /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				6DA5E9151ECBFF0400857C2A /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		6DA5E9191ECBFF0400857C2A /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				6DA5E91A1ECBFF0400857C2A /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		6DA5E9331ECBFF0400857C2A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		6DA5E9341ECBFF0400857C2A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		6DA5E9361ECBFF0400857C2A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = XTDynamicCashLabel/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "fuck-Come.XTDynamicCashLabel";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		6DA5E9371ECBFF0400857C2A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = XTDynamicCashLabel/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "fuck-Come.XTDynamicCashLabel";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+		6DA5E9391ECBFF0400857C2A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = XTDynamicCashLabelTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "fuck-Come.XTDynamicCashLabelTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/XTDynamicCashLabel.app/XTDynamicCashLabel";
+			};
+			name = Debug;
+		};
+		6DA5E93A1ECBFF0400857C2A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = XTDynamicCashLabelTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "fuck-Come.XTDynamicCashLabelTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/XTDynamicCashLabel.app/XTDynamicCashLabel";
+			};
+			name = Release;
+		};
+		6DA5E93C1ECBFF0400857C2A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				INFOPLIST_FILE = XTDynamicCashLabelUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "fuck-Come.XTDynamicCashLabelUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = XTDynamicCashLabel;
+			};
+			name = Debug;
+		};
+		6DA5E93D1ECBFF0400857C2A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				INFOPLIST_FILE = XTDynamicCashLabelUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "fuck-Come.XTDynamicCashLabelUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = XTDynamicCashLabel;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		6DA5E9081ECBFF0400857C2A /* Build configuration list for PBXProject "XTDynamicCashLabel" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6DA5E9331ECBFF0400857C2A /* Debug */,
+				6DA5E9341ECBFF0400857C2A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		6DA5E9351ECBFF0400857C2A /* Build configuration list for PBXNativeTarget "XTDynamicCashLabel" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6DA5E9361ECBFF0400857C2A /* Debug */,
+				6DA5E9371ECBFF0400857C2A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		6DA5E9381ECBFF0400857C2A /* Build configuration list for PBXNativeTarget "XTDynamicCashLabelTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6DA5E9391ECBFF0400857C2A /* Debug */,
+				6DA5E93A1ECBFF0400857C2A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		6DA5E93B1ECBFF0400857C2A /* Build configuration list for PBXNativeTarget "XTDynamicCashLabelUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6DA5E93C1ECBFF0400857C2A /* Debug */,
+				6DA5E93D1ECBFF0400857C2A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 6DA5E9051ECBFF0300857C2A /* Project object */;
+}
