@@ -37,6 +37,7 @@ class ViewController: UIViewController {
         if (inputField.text?.characters.count)! > 0{
             
             dynaLabel.dynamicCash(cash: inputField.text!)
+//            dynaLabel.dynamicCash(cash: inputField.text!, length: 6)
             view.addSubview(dynaLabel)
         }
     }
