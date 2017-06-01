@@ -23,7 +23,7 @@ class XTDynamicLabel: UILabel {
         }
         
     }
-    
+    //传入长度，后位补0
     func dynamicCash(cash : String, length : NSInteger) {
         if !cash.isEmpty{
             cashString = cash
@@ -33,7 +33,7 @@ class XTDynamicLabel: UILabel {
         }
     }
     
-    func dynamic() {
+    private func dynamic() {
         if (cashString != ""){
             XTDynamicLabel.cancelPreviousPerformRequests(withTarget: self)
             alterTimes = 0
@@ -42,7 +42,7 @@ class XTDynamicLabel: UILabel {
         }
     }
     
-    func dynamicNum() {
+    @objc private func dynamicNum() {
         alterTimes += 1
         if alterTimes == 10 {
             XTDynamicLabel.cancelPreviousPerformRequests(withTarget: self)
