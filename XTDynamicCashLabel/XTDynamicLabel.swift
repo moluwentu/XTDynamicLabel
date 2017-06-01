@@ -42,7 +42,7 @@ class XTDynamicLabel: UILabel {
         }
     }
     
-    @objc private func dynamicNum() {
+    func dynamicNum() {
         alterTimes += 1
         if alterTimes == 10 {
             XTDynamicLabel.cancelPreviousPerformRequests(withTarget: self)
